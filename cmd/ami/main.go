@@ -1,8 +1,6 @@
 package main
 
 import (
-        "os"
-
         ami "github.com/samiemostafavi/advmobileinfo"
 )
 

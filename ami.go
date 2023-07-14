@@ -1,7 +1,6 @@
 package advmobileinfo
 
 import (
-	"os"
 	"encoding/json"
 	"log"
 	"net/http"
