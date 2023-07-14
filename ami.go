@@ -43,6 +43,11 @@ func getStatus() ([]byte, error) {
 
 			// Split each line into key and value
 			parts := strings.SplitN(line, ":", 2)
+			// Skip lines where the delimiter ":" is not found
+			if len(parts) < 2 {
+				continue
+			}
+
 			fmt.Println(parts)
 
 			// Trim leading/trailing spaces from key and value
