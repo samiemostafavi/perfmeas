@@ -36,6 +36,11 @@ func getStatus() ([]byte, error) {
 
 		// Process each line
 		for _, line := range lines {
+			// Skip processing empty lines
+			if line == "" {
+				continue
+			}
+
 			// Split each line into key and value
 			parts := strings.SplitN(line, ":", 2)
 			fmt.Println(parts)
