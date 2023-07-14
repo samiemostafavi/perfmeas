@@ -3,7 +3,7 @@ package main
 import (
         "os"
 
-        ami "github.com/samiemostafavi/adv-mobile-info"
+        ami "github.com/samiemostafavi/advmobileinfo"
 )
 
 func main() {

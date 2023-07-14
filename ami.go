@@ -1,4 +1,4 @@
-package adv-mobile-info
+package advmobileinfo
 
 import (
 	"os"
@@ -9,7 +9,7 @@ import (
 
 func Run() {
 	http.HandleFunc("/", handleRequest)
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":50500", nil))
 }
 
 func handleRequest(w http.ResponseWriter, r *http.Request) {
