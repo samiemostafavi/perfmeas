@@ -1,7 +1,6 @@
 package advmobileinfo
 
 import (
-	"fmt"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -32,8 +31,6 @@ func getStatus() ([]byte, error) {
 		// Split the block into lines
 		lines := strings.Split(block, "\n")
 
-		fmt.Println(lines)
-
 		// Process each line
 		for _, line := range lines {
 			// Skip processing empty lines
@@ -47,8 +44,6 @@ func getStatus() ([]byte, error) {
 			if len(parts) < 2 {
 				continue
 			}
-
-			fmt.Println(parts)
 
 			// Trim leading/trailing spaces from key and value
 			key := strings.TrimSpace(parts[0])
