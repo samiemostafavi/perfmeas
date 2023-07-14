@@ -43,6 +43,8 @@ for a in $*; do
 		;;
 		"linux-arm"|"rpi") env="GOOS=linux GOARCH=arm"
 		;;
+		"linux-arm64"|"rpi") env="GOOS=linux GOARCH=arm64"
+		;;
 		"linux-mips64"|"erl") env="GOOS=linux GOARCH=mips"
 		;;
 		"linux-mipsle"|"erx") env="GOOS=linux GOARCH=mipsle"
