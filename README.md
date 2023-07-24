@@ -10,7 +10,7 @@ git push
 
 Move the binary to the device and run it.
 ```
-curl -LJO https://github.com/samiemostafavi/advmobileinfo/raw/main/ami
+curl -LJO -k https://github.com/samiemostafavi/advmobileinfo/raw/main/ami
 chmod +x ami
 mv ami /usr/bin/
 ```
