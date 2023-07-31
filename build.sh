@@ -3,7 +3,7 @@
 # This script may be used during development for making builds and generating doc.
 
 action="build"
-pkg="github.com/samiemostafavi/advmobileinfo/cmd/ami"
+pkg="github.com/samiemostafavi/perfmeas/cmd/pfm"
 ldflags=""
 linkshared=""
 tags=""
